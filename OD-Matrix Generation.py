@@ -24,7 +24,7 @@ def od(time_1,time_2,corpus,n):
             b.append(corpus[i][3])
    
     
-    s=np.zeros((77, 77))
+    s=np.zeros((77, 77)) #"77" is the greatest value that represents the community area.
     for i in range(len(a)):
         x=a[i]-1
         y=b[i]-1
